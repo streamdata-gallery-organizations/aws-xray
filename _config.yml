@@ -1,0 +1,17 @@
+title: Streamdata Gallery
+url: aws-xray.api.streamdata.gallery
+tag: Temmplate
+markdown: kramdown
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
+github_user: streamdata-gallery-organizations
+github_repo: aws-xray
+github_branch: master
+collections:
+  listings:
+    output: true
+    permalink: /listings/:path/
+defaults:
+  - scope:
+      type: listings
+    values:
+      layout: listings
