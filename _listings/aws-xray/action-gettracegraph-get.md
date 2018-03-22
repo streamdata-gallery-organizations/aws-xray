@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetTraceGraph&k=1:
+  /?Action=GetTraceGraph:
     get:
       summary: ' Get Trace Graph '
       description: Retrieves a service graph for one or more specific trace IDs
