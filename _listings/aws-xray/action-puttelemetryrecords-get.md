@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutTelemetryRecords&k=1:
+  /?Action=PutTelemetryRecords:
     get:
       summary: ' Put Telemetry Records '
       description: Used by the AWS X-Ray daemon to upload telemetry
