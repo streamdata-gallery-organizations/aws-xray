@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetServiceGraph&k=1:
+  /?Action=GetServiceGraph:
     get:
       summary: ' Get Service Graph '
       description: |-
