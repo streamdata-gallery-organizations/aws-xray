@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=BatchGetTraces&k=1:
+  /?Action=BatchGetTraces:
     get:
       summary: ' Batch Get Traces '
       description: Retrieves a list of traces specified by ID
