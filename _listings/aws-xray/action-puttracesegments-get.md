@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutTraceSegments&k=1:
+  /?Action=PutTraceSegments:
     get:
       summary: ' Put Trace Segments '
       description: Uploads segment documents to AWS X-Ray
