@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetTraceSummaries&k=1:
+  /?Action=GetTraceSummaries:
     get:
       summary: ' Get Trace Summaries '
       description: |-
